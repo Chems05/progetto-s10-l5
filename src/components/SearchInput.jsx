@@ -29,9 +29,9 @@ const Input = () => {
           />
           <BiSearch
             onClick={response}
-            size={30}
+            size={40}
             style={{ color: "white", marginRight: "0px", cursor: "pointer" }}
-            className="user-select-all"
+            className="iconSearch"
           />
         </label>
       </form>
