@@ -40,3 +40,16 @@
 .read-the-docs {
   color: #888;
 }
+
+.inputText {
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.05);
+  font-size: 16px;
+  height: 40px;
+  width: 17rem;
+  padding: 10px 8px 10px 15px;
+  box-shadow: none;
+  border: none;
+  border-radius: 19px;
+  margin-bottom: 18rem;
+}

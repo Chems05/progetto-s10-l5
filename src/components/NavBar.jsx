@@ -2,8 +2,8 @@ import "bootstrap/dist/css/bootstrap.css";
 
 const NavBar = () => {
   return (
-    <nav className="navbar">
-      <div className="">
+    <nav className="Buttons">
+      <div className="d-flex justify-content-center">
         <button className="btn btn-success m-3" type="button">
           METEO
         </button>
