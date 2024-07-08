@@ -4,7 +4,7 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 const news = () => {
   return (
     <div className="text-white">
-      <h2 className="titoloNotizie" style={{ marginBottom: "3rem" }}>
+      <h2 className="titoloNotizie text-black" style={{ marginBottom: "3rem" }}>
         {" "}
         ULTIME NOTIZIE IN LIVE
       </h2>

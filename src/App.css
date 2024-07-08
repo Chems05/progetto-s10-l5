@@ -51,7 +51,7 @@
   box-shadow: none;
   border: none;
   border-radius: 19px;
-  margin-bottom: 5rem;
+  margin-bottom: 1rem;
 }
 
 .iFrame {
@@ -61,14 +61,17 @@
 }
 
 .iconSearch {
-  transition: all 0.3s linear;
-  transform: scale(1.5);
+  transition: all 0.4s linear;
+  transform: scale(1.3);
+  cursor: pointer;
 }
 
 .footer {
   background: #333;
   color: #fff;
   padding: 20px 0;
+  margin-right: 34rem;
+  margin-left: 34rem;
 }
 
 .footer-section {
