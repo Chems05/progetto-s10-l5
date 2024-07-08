@@ -1,5 +1,5 @@
 import { BiSearch } from "react-icons/bi";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 // Funzione per convertire da Kelvin a Celsius
 const Celsius = (kelvin) => {
@@ -61,6 +61,12 @@ const Input = () => {
       fetchForecast();
     }
   };
+
+  // Mostra un avviso di impostare l'interfaccia a mobile attraverso l'ispeziona
+
+  useEffect(() => {
+    alert("IMPOSTA L'INTERFACCIA DA DESKTOP A MOBILE ATTRAVERSO LìISPEZIONE!");
+  }, []);
 
   return (
     <div
